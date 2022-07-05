@@ -1,0 +1,101 @@
+@media (min-width: 240px) and (max-width: 767px) {
+  .no-padding {
+    padding: 0; } }
+
+.no-padding-web {
+  padding: 0 !important; }
+
+html {
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif; }
+  @media (min-width: 1400px) and (max-width: 1600px) {
+    html {
+      font-size: 16px; } }
+  @media (min-width: 1601px) and (max-width: 2300px) {
+    html {
+      font-size: 16px; } }
+
+body {
+  font-weight: 400;
+  font-size: 1.1rem;
+  color: #170303;
+  line-height: 22px;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden !important;
+  font-family: 'Roboto', sans-serif; }
+
+a {
+  cursor: pointer;
+  color: inherit;
+  text-decoration: none; }
+  a:hover {
+    text-decoration: none;
+    color: inherit; }
+
+@media (min-width: 1440px) {
+  .container {
+    max-width: 1400px; } }
+@media (min-width: 1366px) and (max-width: 1439px) {
+  .container {
+    max-width: 1300px; } }
+@media (min-width: 575px) and (max-width: 767px) {
+  .container {
+    max-width: 90%; } }
+
+:root {
+  --animate-duration: 1s;
+  --animate-delay: 1s;
+  --animate-repeat: 1 ; }
+
+@-webkit-keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0); }
+  to {
+    opacity: 1;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0); } }
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0); }
+  to {
+    opacity: 1;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0); } }
+.animate__fadeInDown {
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown; }
+
+@-webkit-keyframes fadeInDownBig {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -2000px, 0);
+    transform: translate3d(0, -2000px, 0); }
+  to {
+    opacity: 1;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0); } }
+@keyframes fadeInDownBig {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -2000px, 0);
+    transform: translate3d(0, -2000px, 0); }
+  to {
+    opacity: 1;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0); } }
+.animate__fadeInDownBig {
+  -webkit-animation-name: fadeInDownBig;
+  animation-name: fadeInDownBig; }
+
+.w_100w_75t {
+  width: 100% !important; }
+  @media (min-width: 768px) and (max-width: 991px) {
+    .w_100w_75t {
+      width: 75% !important; } }
+
+/*# sourceMappingURL=ref.css.map */

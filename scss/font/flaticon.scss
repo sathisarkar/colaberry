@@ -1,0 +1,61 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?aff6596bea460abaf087af4b22a51d4d") format("truetype"),
+url("./flaticon.woff?aff6596bea460abaf087af4b22a51d4d") format("woff"),
+url("./flaticon.woff2?aff6596bea460abaf087af4b22a51d4d") format("woff2"),
+url("./flaticon.eot?aff6596bea460abaf087af4b22a51d4d#iefix") format("embedded-opentype"),
+url("./flaticon.svg?aff6596bea460abaf087af4b22a51d4d#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "coding": "\f101",
+    "data-science": "\f102",
+    "raspberry-pi": "\f103",
+    "testing": "\f104",
+    "statue-of-liberty": "\f105",
+    "taj-mahal": "\f106",
+    "brandenburg-gate": "\f107",
+    "coat-of-arms": "\f108",
+    "burj-al-arab": "\f109",
+);
+
+.flaticon-coding:before {
+    content: map-get($flaticon-map, "coding");
+}
+.flaticon-data-science:before {
+    content: map-get($flaticon-map, "data-science");
+}
+.flaticon-raspberry-pi:before {
+    content: map-get($flaticon-map, "raspberry-pi");
+}
+.flaticon-testing:before {
+    content: map-get($flaticon-map, "testing");
+}
+.flaticon-statue-of-liberty:before {
+    content: map-get($flaticon-map, "statue-of-liberty");
+}
+.flaticon-taj-mahal:before {
+    content: map-get($flaticon-map, "taj-mahal");
+}
+.flaticon-brandenburg-gate:before {
+    content: map-get($flaticon-map, "brandenburg-gate");
+}
+.flaticon-coat-of-arms:before {
+    content: map-get($flaticon-map, "coat-of-arms");
+}
+.flaticon-burj-al-arab:before {
+    content: map-get($flaticon-map, "burj-al-arab");
+}
